@@ -1,0 +1,37 @@
+print("我是%s,我今年%d岁"%("韩广阳",19))
+我是韩广阳,我今年19岁
+
+s="i am {1},i love {0}and i am{1}".format("宝宝","韩广阳")
+print(s)
+i am 韩广阳,i love 宝宝and i am韩广阳
+
+and逻辑与
+or逻辑或
+not逻辑非
+
+成员运算符：用来检测一个变量是不是另一个变量的成员
+in在
+not in不在
+
+l=[1,2,3,4,5]
+a=2
+b=a in l
+print(b)
+b=a not in l
+print(b)
+True
+False
+
+身份运算符
+用来检测是不是同一个变量
+is:a is b
+is not:a is not b
+
+a=10
+b=10
+print(a is b)
+a="韩广阳"
+b="韩广阳"
+print(a is b)
+True
+False

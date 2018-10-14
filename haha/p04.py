@@ -1,0 +1,2 @@
+import bao
+bao.init()
